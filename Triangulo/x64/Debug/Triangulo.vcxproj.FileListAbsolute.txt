@@ -1,0 +1,4 @@
+C:\Users\Lenovo\Source\Repos\Triangulo\x64\Debug\Triangulo.exe
+C:\Users\Lenovo\Source\Repos\Triangulo\x64\Debug\Triangulo.pdb
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\Triangulo\x64\Debug\Triangulo.exe
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\Triangulo\x64\Debug\Triangulo.pdb
