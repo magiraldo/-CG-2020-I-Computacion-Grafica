@@ -1,0 +1,2 @@
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\TrianguloMatriz\x64\Debug\TrianguloMatriz.exe
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\TrianguloMatriz\x64\Debug\TrianguloMatriz.pdb
