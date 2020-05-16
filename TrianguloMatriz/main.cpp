@@ -39,35 +39,39 @@ float x = 0.0f, y = 0.0f, z = 0.0f;
 double rot_x = 0, rot_y = 0;
 
 float triangulo_rotY[] = {
-    cos(45), 0.0f, sin(45), 0.0f, 
+    cos(45*(PI/180.0)), 0.0f, sin(45 * (PI / 180.0)), 0.0f,
     0.0f, 1.0f, 0.0f, 0.0f, 
-    -sin(45), 0.0f, cos(45), 0.0f,
+    -sin(45 * (PI / 180.0)), 0.0f, cos(45 * (PI / 180.0)), 0.0f,
     0.0f, 0.0f, 0.0f, 1.0f  
 };
 
 float triangulo_rotX[] = {
     1, 0.0f, 0.0f, 0.0f, 
-    0.0f, cos(45), -sin(45), 0.0f, 
-    0.0f, sin(45), cos(45), 0.0f, 
+    0.0f, cos(45 * (PI / 180.0)), -sin(45 * (PI / 180.0)), 0.0f,
+    0.0f, sin(45 * (PI / 180.0)), cos(45 * (PI / 180.0)), 0.0f,
     0.0f, 0.0f, 0.0f, 1.0f  
 };
 
 float triangulo_rotZ[] = {
-    cos(90), -sin(90), 0.0f, 0.0f,
-    sin(90), cos(90), 0.0f, 0.0f,
+    cos(45 * (PI / 180.0)), -sin(45 * (PI / 180.0)), 0.0f, 0.0f,
+    sin(45 * (PI / 180.0)), cos(45 * (PI / 180.0)), 0.0f, 0.0f,
     0.0f, 0.0f, 0.1f, 0.0f,
     0.0f, 0.0f, 0.0f, 1.0f
 };
 
+float N=0.3f;
+
 float triangulo_xp[] = {
-	1.0f, 0.0f, 0.0f, 0.3f, //x positivo
-	0.0f, 1.0f, 0.0f, 0.0f, 
-	0.0f, 0.0f, 1.0f, 0.0f, 
-	0.0f, 0.0f, 0.0f, 1.0f  
+    1.0f, 0.0f, 0.0f, N, //x positivo
+    0.0f, 1.0f, 0.0f, 0.0f,
+    0.0f, 0.0f, 1.0f, 0.0f,
+    0.0f, 0.0f, 0.0f, 1.0f
 };
 
+
+
 float triangulo_xn[] = {
-	1.0f, 0.0f, 0.0f, -0.3f, //x negativo
+	1.0f, 0.0f, 0.0f, -N, //x negativo
 	0.0f, 1.0f, 0.0f, 0.0f, 
 	0.0f, 0.0f, 1.0f, 0.0f, 
 	0.0f, 0.0f, 0.0f, 1.0f  
@@ -75,14 +79,14 @@ float triangulo_xn[] = {
 
 float triangulo_yp[] = {
     1.0f, 0.0f, 0.0f, 0.0f, 
-    0.0f, 1.0f, 0.0f, 0.3f, //y positivo
+    0.0f, 1.0f, 0.0f, N, //y positivo
     0.0f, 0.0f, 1.0f, 0.0f, 
     0.0f, 0.0f, 0.0f, 1.0f  
 };
 
 float triangulo_yn[] = {
     1.0f, 0.0f, 0.0f, 0.0f, 
-    0.0f, 1.0f, 0.0f, -0.3f, //y negativo
+    0.0f, 1.0f, 0.0f, -N, //y negativo
     0.0f, 0.0f, 1.0f, 0.0f, 
     0.0f, 0.0f, 0.0f, 1.0f  
 };
@@ -93,6 +97,7 @@ float triangulo_scms[] = {
     0.0f, 0.0f, 0.9f, 0.0f,
     0.0f, 0.0f, 0.0f, 1.0f
 };
+
 
 float triangulo_scmx[] = {
     1.1f, 0.0f, 0.0f, 0.0f,
@@ -124,6 +129,19 @@ float vertices3[] = {
     0.15f, -0.3f, 0.0f, //right
     0.15f, 0.0f, 0.0f //top
 };
+
+void menu() {
+    cout << "-------------------> Menu <--------------------\n";
+    cout << "Tecla Flecha <-: Traslación hacia la Izquierda\n";
+    cout << "Tecla Flecha ->: Traslación hacia la Derecha\n";
+    cout << "Tecla Flecha Arriba: Traslación hacia Arriba\n";
+    cout << "Tecla Flecha Abajo: Traslación hacia Abajo\n";
+    cout << "Tecla E: Escala Pequeña\n";
+    cout << "Tecla S: Escala Grande\n";
+    cout << "Tecla X: Rotación en X\n";
+    cout << "Tecla Y: Rotación en Y\n";
+    cout << "Tecla Z: Rotación en Z\n";
+}
 
 //Funcion creada para el cambio de colores de fondo
 void keyFunc(GLFWwindow* window, int key, int scancode, int action, int mods)
@@ -463,6 +481,8 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, VBO[2]);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices3), vertices3, GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
+
+    menu();
 
     do {
         glClearColor(0.2f, 0.2f, 0.2f, 1.0f);
