@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(36,8): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(36,8): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(36,27): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(36,27): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(38,5): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(38,5): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(38,28): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(38,28): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(44,14): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(44,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(44,24): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(44,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(45,14): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(45,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(45,27): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(45,27): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(50,8): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(50,8): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(50,18): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(50,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(51,8): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(51,8): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(51,21): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\main.cpp(51,21): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  ControlPractico.vcxproj -> C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\x64\Debug\ControlPractico.exe

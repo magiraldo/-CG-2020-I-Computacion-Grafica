@@ -1,0 +1,2 @@
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\x64\Debug\ControlPractico.exe
+C:\Users\Lenovo\Documents\-CG-2020-I-Computacion-Grafica\ControlPractico\x64\Debug\ControlPractico.pdb
